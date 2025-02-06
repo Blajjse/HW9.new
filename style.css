@@ -1,97 +1,25 @@
-:root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-  }
 
-.a a {
-    font-family: var(--second-family);
-font-weight: 700;
-font-size: 26px;
-letter-spacing: 0.03em;
+body {
+    text-indent: 100px;
+    line-height: 1.7;
 }
-.b a {
-    width: 45px;
-    height: 16px;
+span {
+    text-decoration: line-through 
 }
-.c a {
-    width: 135px;
-    height: 16px;
+.link {
+    text-shadow: 2px 2px 4px red;
 }
-.d h1 {
-    font-family: var(--font-family);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 136%;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+.post-title {
     text-align: center;
 }
-.d button {
-    width: 216px;
-    height: 50px;
-    text-align: center;
+.post-text p:first-child {
+    text-align: right;
 }
-.e h3 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    text-align: center;
+.post-text p:last-child {
+    text-align: justify;
 }
-.e p {
-    font-family: var(--font-family);
+body {
+    font-family: "Pochaevsk", serif;
     font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    text-align: center;
-}
-.f a {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-}
-.g a {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-}
-.h a {
-    width: 45px;
-    height: 16px;
-}
-.i a {
-    width: 135px;
-    height: 16px;
-}
-.aa a {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-}
-.ad button {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162%;
-    letter-spacing: 0.03em;
-    text-align: center;
-
-}
-.ab h3 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
-    letter-spacing: 0.06em;
-}
-.ac h4 {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 0.03em;
+    font-style: normal;
 }
